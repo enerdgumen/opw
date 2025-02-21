@@ -1,0 +1,8 @@
+[Unit]
+Description=1Password OP Wrapper Daemon
+
+[Service]
+ExecStart=%h/.cargo/bin/opw daemon
+
+[Install]
+WantedBy=default.target
